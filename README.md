@@ -1,6 +1,8 @@
 Compile the kernel
 ============
 
+Run `fixer.sh` to get rid of SELinux issues first.
+
 Use `make menuconfig` and select `NIMBLE_PAGE_MANAGEMENT` to make sure the
 kernel can be compiled correctly. (Use `/` to search for that option.)
 
